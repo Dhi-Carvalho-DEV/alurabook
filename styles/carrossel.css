@@ -36,6 +36,10 @@
   margin-bottom: 0.5rem;
 }
 
+.descricao__avaliacao {
+  margin-bottom: 0.5rem;
+}
+
 .descricao__titulo {
   color: var(--cor-titulo-primaria);
   font-weight: 700;
