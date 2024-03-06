@@ -23,6 +23,7 @@
   border: 1px solid var(--branco);
   border-radius: 1.5rem;
   padding: 1rem;
+  color: var(--branco);
 }
 
 .banner__pesquisa::placeholder {
