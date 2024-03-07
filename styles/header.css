@@ -69,6 +69,10 @@
   font-family: var(--poppins);
 }
 
+.container__texto {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .cabecalho {
     padding: 0 5rem;
@@ -114,5 +118,23 @@
   .opcoes__botao:checked~.lista-menu {
     display: block;
     width: auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .container__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .container__texto {
+    display: block;
+    font-size: 1.25rem;
+  }
+
+  .opcoes {
+    margin-right: auto;
   }
 }
