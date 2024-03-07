@@ -40,6 +40,12 @@
     margin: auto 5rem;
   }
 
+  @media screen and (min-width: 1728px) {
+    .topicos {
+      padding: 1rem 25vw;
+    }
+  }
+
   .topicos__link {
     font-size: 1.5rem;
   }
