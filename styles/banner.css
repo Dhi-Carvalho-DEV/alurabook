@@ -53,6 +53,6 @@
   .banner__pesquisa::placeholder {
     font-size: 1rem;
     font-weight: 400;
-    
+    background-position: 4rem;
   }
 }
